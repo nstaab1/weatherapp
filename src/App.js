@@ -1,10 +1,13 @@
+import { Button } from "antd";
+import { Input } from "antd";
 import "./App.css";
-import { DayCard } from "./components/day-card/DayCard";
 
 function App() {
   return (
     <div className="App">
-      <DayCard />
+      <Button type="primary">Primary Button</Button>
+      <Input placeholder="Basic usage" />
+      <input />
     </div>
   );
 }
